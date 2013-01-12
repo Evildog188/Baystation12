@@ -78,6 +78,13 @@
 	item_state = "jackboots"
 	color = "hosred"
 
+/obj/item/clothing/shoes/digitigrade_boots
+	name = "digitigrade boots"
+	desc = "A pair of boots recently developed by Cent. Com. to allow for more comfort when worn by ones who walk on their digits."
+	icon_state = "jackboots"
+	item_state = "jackboots"
+	color = "hosred"
+
 /obj/item/clothing/shoes/cult
 	name = "boots"
 	desc = "A pair of boots worn by the followers of Nar-Sie."

@@ -39,6 +39,15 @@
 	containername = "Special Ops crate"
 	hidden = 1
 
+/datum/supply_packs/digitigrade
+	name = "Digitigrade Equipment"
+	contains = list(/obj/item/clothing/shoes/digitigrade_boots,
+					/obj/item/clothing/shoes/digitigrade_boots,
+					/obj/item/clothing/shoes/digitigrade_boots)
+	cost = 10
+	containertype = /obj/structure/closet/crate
+	containername = "Digitigrade Equipment crate"
+
 /datum/supply_packs/food
 	name = "Food crate"
 	contains = list(/obj/item/weapon/reagent_containers/food/drinks/flour,
