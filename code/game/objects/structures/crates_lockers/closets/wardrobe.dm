@@ -13,6 +13,17 @@
 	new /obj/item/clothing/shoes/brown(src)
 	return
 
+/obj/structure/closet/wardrobe/digitgrade
+	name = "digitigrade wardrobe"
+	desc = "It's a storage unit containg digitigrade clothing specfically designed for Tajara crewmembers."
+	icon_state = "white"
+	icon_closed = "white"
+
+/obj/structure/closet/wardrobe/digitgrade/New()
+	new /obj/item/clothing/shoes/digitigrade_boots(src)
+	new /obj/item/clothing/shoes/digitigrade_boots(src)
+	new /obj/item/clothing/shoes/digitigrade_boots(src)
+	new /obj/item/clothing/shoes/digitigrade_boots(src)
 
 /obj/structure/closet/wardrobe/red
 	name = "security wardrobe"
