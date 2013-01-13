@@ -59,7 +59,7 @@ SQL_ENABLED 0
 ## set to 0 to disable that mode
 ## Cult mode is in alpha test, enable at your own risk
 PROBABILITY EXTENDED 1
-PROBABILITY TRAITOR 2
+PROBABILITY TRAITOR 0
 PROBABILITY METEOR 0
 PROBABILITY MALFUNCTION 0
 PROBABILITY BLOB 0
@@ -69,11 +69,11 @@ PROBABILITY WIZARD 0
 PROBABILITY RESTRUCTURING 0
 PROBABILITY REVOLUTION 0
 PROBABILITY CHANGELING 0
-PROBABILITY CULT 2
+PROBABILITY CULT 0
 PROBABILITY MONKEY 0
 PROBABILITY TRAITORCHAN 0
-PROBABILITY EXTEND-A-TRAITORMONGOUS 3
-PROBABILITY EPIDEMIC 1
+PROBABILITY EXTEND-A-TRAITORMONGOUS 0
+PROBABILITY EPIDEMIC 0
 PROBABILITY MEME 0
 
 ## Hash out to disable random events during the round.
@@ -135,13 +135,13 @@ GUEST_JOBBAN 1
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://example.com
+# FORUMURL http://janus.syndistep.net/
 
 ## Wiki address
 # WIKIURL http://example.com
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://example.com
+BANAPPEALS http://janus.syndistep.net/viewforum.php?f=33
 
 ## In-game features
 ## spawns a spellbook which gives object-type spells instead of verb-type spells for the wizard
@@ -158,7 +158,7 @@ GUEST_JOBBAN 1
 #POPUP_ADMIN_PM
 
 ##What address should banned people appeal ther ban at?  Remember to escape the characters, if needed!
-# APPEAL_ADDRESS http://example.com
+# APPEAL_ADDRESS http://janus.syndistep.net/viewforum.php?f=33
 
 ##Defines the ticklag for the world.  0.9 is the normal one, 0.5 is smoother.
 TICKLAG 0.9
@@ -182,4 +182,4 @@ USEALIENWHITELIST
 NUDGE_SCRIPT_PATH nudge.py
 
 ## Comment this to unrestrict the number of alien players allowed in the round. The number represents the number of alien players for every human player.
-ALIEN_PLAYER_RATIO 0.2
+# ALIEN_PLAYER_RATIO 0.2
