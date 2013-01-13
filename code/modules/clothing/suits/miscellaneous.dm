@@ -250,6 +250,13 @@
 	item_state = "neocoat"
 	flags = FPRINT | TABLEPASS
 
+/obj/item/clothing/suit/alliance_coat
+	name = "imperial navy uniform coat"
+	desc = "A Tannhausarian imperial navy uniform coat, once the mere thought of this uniform struck fear into the hearts of all who heard it. Now, years after the destruction of their empire, it is only a faint memory."
+	icon_state = "alliance_coat"
+	item_state = "alliance_coat"
+	flags = FPRINT | TABLEPASS
+
 //actual suits
 
 /obj/item/clothing/suit/creamsuit

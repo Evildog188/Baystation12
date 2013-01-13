@@ -7,6 +7,20 @@
 	flags = FPRINT|TABLEPASS
 	item_state = "centhat"
 
+/obj/item/clothing/head/alliance_hat
+	name = "imperial navy uniform hat"
+	icon_state = "alliance_hat"
+	desc = "A Tannhausarian imperial navy uniform hat, once the mere thought of this uniform struck fear into the hearts of all who heard it. Now, years after the destruction of their empire, it is only a faint memory."
+	flags = FPRINT|TABLEPASS
+	item_state = "alliance_hat"
+
+/obj/item/clothing/head/blue_beret
+	name = "praetorian beret"
+	icon_state = "officerberet"
+	desc = "A Praetorian guard beret, one of few left after the colonies of Tannhauser were sacked and burned. This was the headwear of the Elite guard of the Imperials."
+	flags = FPRINT|TABLEPASS
+	item_state = "officerberet"
+
 /obj/item/clothing/head/powdered_wig
 	name = "powdered wig"
 	desc = "A powdered wig."
