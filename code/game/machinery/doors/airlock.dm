@@ -149,6 +149,13 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	doortype = 10
 	glass = 1
 
+/obj/machinery/door/airlock/glass_large_NS
+	name = "Glass Airlock"
+	icon = 'icons/obj/doors/Door2x1 NS.dmi'
+	opacity = 0
+	doortype = 33
+	glass = 1
+
 /obj/machinery/door/airlock/freezer
 	name = "Freezer Airlock"
 	icon = 'icons/obj/doors/Doorfreezer.dmi'
