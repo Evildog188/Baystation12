@@ -155,6 +155,8 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	opacity = 0
 	doortype = 33
 	glass = 1
+	bound_width = 32
+	bound_height = 64
 
 /obj/machinery/door/airlock/freezer
 	name = "Freezer Airlock"
