@@ -130,6 +130,13 @@
 	density = 1
 	blocks_air = 1
 
+/turf/simulated/shuttle/wall_window
+	name = "shuttle window"
+	icon_state = "window1"
+	opacity = 0
+	density = 1
+	blocks_air = 1
+
 /turf/simulated/shuttle/floor
 	name = "floor"
 	icon_state = "floor"
