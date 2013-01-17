@@ -943,6 +943,10 @@ proc/process_ghost_teleport_locs()
 	name = "\improper Robotics Assembly Line"
 	icon_state = "ass_line"
 
+/area/assembly/assembly_office
+	name = "\improper Robotics Office"
+	icon_state = "ass_office"
+
 //Teleporter
 
 /area/teleporter
