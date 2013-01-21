@@ -148,6 +148,8 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	opacity = 0
 	doortype = 10
 	glass = 1
+	bound_width = 64
+	bound_height = 32
 
 /obj/machinery/door/airlock/glass_large_NS
 	name = "Glass Airlock"
