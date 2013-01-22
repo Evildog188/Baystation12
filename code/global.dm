@@ -68,8 +68,8 @@ var/blobevent = 0
 var/diary = null
 var/diaryofmeanpeople = null
 var/href_logfile = null
-var/station_name = "NSV Exodus"
-var/game_version = "Baystation12"
+var/station_name = "Starbase Janus"
+var/game_version = "Starbase Janus"
 
 var/datum/air_tunnel/air_tunnel1/SS13_airtunnel = null
 var/going = 1.0
@@ -198,9 +198,9 @@ var/calibrateddestination //If you actually arrive at the away gate
 
 var/sqladdress = "localhost"
 var/sqlport = "3306"
-var/sqldb = "tgstation"
-var/sqllogin = "root"
-var/sqlpass = ""
+var/sqldb = "starbasejanus"
+var/sqllogin = "al"
+var/sqlpass = "a1b1c3t37y"
 
 	// Feedback gathering sql connection
 
