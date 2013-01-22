@@ -135,7 +135,7 @@ GUEST_JOBBAN 1
 SERVER 198.23.155.77:1337
 
 ## forum address
-# FORUMURL http://janus.syndistep.net/
+FORUMURL http://janus.syndistep.net/
 
 ## Wiki address
 # WIKIURL http://example.com
