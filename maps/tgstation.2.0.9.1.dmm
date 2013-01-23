@@ -2560,7 +2560,7 @@
 "aXl" = (/turf/simulated/floor{dir = 1; icon_state = "whitecorner"},/area/hallway/primary/starboard)
 "aXm" = (/obj/machinery/atmospherics/unary/vent_pump{on = 1},/turf/simulated/floor{dir = 1; icon_state = "whitecorner"},/area/hallway/primary/starboard)
 "aXn" = (/obj/machinery/camera{c_tag = "Starboard Primary Hallway 2"; dir = 2; network = "SS13"},/turf/simulated/floor{dir = 1; icon_state = "whitecorner"},/area/hallway/primary/starboard)
-"aXo" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/glass_large{name = "Hydroponics"},/turf/simulated/floor,/area/hydroponics)
+"aXo" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/glass_large{name = "Hydroponics"; req_access_txt = "35"},/turf/simulated/floor,/area/hydroponics)
 "aXp" = (/obj/machinery/door/firedoor/border_only,/turf/simulated/floor,/area/hydroponics)
 "aXq" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/hydroponics)
 "aXr" = (/turf/simulated/floor{dir = 1; icon_state = "green"},/area/hallway/primary/starboard)
