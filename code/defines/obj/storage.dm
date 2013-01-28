@@ -65,7 +65,7 @@
 	desc = "It has pictures of paper cups on the front."
 	icon_state = "box"
 	item_state = "syringe_kit"
-	foldable = /obj/item/stack/sheet/cardboard	//BubbleWrap
+	foldable = /obj/item/stack/sheet/cardboard	//BubbleWrap0.
 	New()
 		..()
 		new /obj/item/weapon/reagent_containers/food/drinks/sillycup( src )
@@ -480,6 +480,22 @@
 	desc = "It has a picture of drinking glasses on it."
 	icon_state = "box"
 	item_state = "syringe_kit"
+
+/obj/item/weapon/storage/wirebox
+	name = "box of wires"
+	desc = "It has a picture of a spool of cable on the front."
+	icon_state = "box"
+	item_state = "syringe_kit"
+	foldable = /obj/item/stack/sheet/cardboard	//BubbleWrap
+	New()
+		..()
+		new /obj/item/weapon/cable_coil( src )
+		new /obj/item/weapon/cable_coil( src )
+		new /obj/item/weapon/cable_coil( src )
+		new /obj/item/weapon/cable_coil( src )
+		new /obj/item/weapon/cable_coil( src )
+		new /obj/item/weapon/cable_coil( src )
+		new /obj/item/weapon/cable_coil( src )
 
 
 
